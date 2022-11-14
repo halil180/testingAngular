@@ -1,0 +1,17 @@
+<div class="content">
+
+    <h1>Designbees</h1>
+
+    <article [hidden]="hideContent">
+        <div>
+            <p>warning code {{severity}}</p>
+        </div>
+        <div>
+            {{content}}
+        </div>
+    </article>
+    <!-- <p id="hey">banner works!</p> -->
+    <button (click)="toggle()"> toogle visiblity </button>
+    <button (click)="toggleAsync()"> toogle toggleAsync </button>
+</div>
+
